@@ -13,7 +13,7 @@ password copied to the clipboard when used w/ a bash command)
 
 1. You may need to set some permissions first.
 
-        $ chmod u+x diceware
+        $ chmod u+x diceware-v2
 
 2. Run the program:
 
