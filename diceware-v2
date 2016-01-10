@@ -33,7 +33,8 @@ r = random.SystemRandom()
 # 22364]
 rolls = [''.join([str(r.randint(1,6)) for n in range(5)]) for n in range(words)]
 
-f = open('dicewarePickle.txt', 'r')
+pickle_file = 'HERE YOU NEED TO PUT THE FULL PATH TO THE dicewarePickle.txt FILE !!!!!!'
+f = open(pickle_file, 'r')
 
 rolldict = pickle.load(f)
 
