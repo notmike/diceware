@@ -33,7 +33,7 @@ r = random.SystemRandom()
 # 22364]
 rolls = [''.join([str(r.randint(1,6)) for n in range(5)]) for n in range(words)]
 
-f = open('/home/mg/git/diceware/dicewarePickle.txt', 'r')
+f = open('dicewarePickle.txt', 'r')
 
 rolldict = pickle.load(f)
 
