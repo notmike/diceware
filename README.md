@@ -1,6 +1,13 @@
 Diceware
 ========
 
+### My Fork is slightly modified to make calling from the command line easier.
+
+##### Noticeable differences:
++ It only prints the final diceware password to stdout
++ The diceware words are seperated by periods
+
+---------
 This is a Python implementation of the [Diceware](http://world.std.com/~reinhold/diceware.html) pasword-generating algorithm. It uses uses `/dev/urandom` or
 equivalent using calls within Python's `random` module.
 
